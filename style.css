@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url("welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width:100%;
+    height:15vh;
+    background:rgba(0,0,0,0.2);
+    color:white;display:flex; justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width:25%;
+    text-align: center;
+}
+nav .menu{
+    width:40%;
+    display: flex; justify-content: space-around;
+}
+nav .menu a{
+    width:25%;
+    text-decoration: none;
+    color:white;
+}
+main{
+    width:100%;
+    height:85vh;
+display: flex; justify-content: center;align-items: center;text-align: center;  
+    color:white;
+}
+section{
+    
+}
+section h4{
+    font-size: 25px;font-weight: 100; letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h2
+{     margin:30px 0 20px 0;
+    font-size: 50px;font-weight: 700; 
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight:500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btnone{
+    background-color:aqua;
+    color:black;
+    
+}
+section .btntwo{
+    background-color:white;
+    color:black;
+    }
+
+.two{
+    text-align: center;
+    
+}
+.two h1{
+    font-weight:900;
+    font-size: 50px;
+}
+.two p{
+    font-size:20px;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    display: grid;
+    grid-template-rows: 500px 500px 500px 500px 500px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 5px;
+    grid-column-gap: 25px;
+    text-align: center;
+    
+}
+img{
+    width:100%;
+    border-radius:6px;
+    
+    
+}
+
+.navb{
+    position: fixed;
+}
+
+.budget{
+    background-color: antiquewhite;
+  
+    text-align: center;
+    padding-top: 50px;
+    
+}
+h1{
+    font-size: 25px;
+    font-weight:600;
+}
+.flex{
+    display: grid;
+    grid-template-rows: 500px ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 25px;
+        margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+.flex img{
+    width:100%;
+    border-radius:6px;
+}
+
+.customer h1{
+    font-size: 70px;
+    
+    text-align: center;
+    padding-top: 15px;
+}
+
+.review{
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: 150px  150px 150px;
+    grid-template-columns: 1fr 1fr   ;
+    grid-column-gap: 25px;
+        margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.review h3{
+    font-size: 25px;font-family:sans-serif;
+}
+
+.review p{
+    font-size: 20px;
+    
+}
+.checked{
+color: gold;
+}
+
+footer{
+  
+   width:100%;
+    height:55vh;
+    background-color:aquamarine
+        ;
+}
+
+.about h1{
+  font-size: 50px;font-family:sans-serif;
+    
+}
+.about p{
+    text-align: left;
+    font-size: 22px;
+}
+.about .checked{
+    color:red;
+}
+.fb .checked{
+    color:blue;
+}
+.gh .checked{
+    color:black;
+}
+.is .checked{
+    color:hotpink;
+}
+.in .checked{
+    color:blue;
+}
+.tg .checked{
+    color:darkblue;
+}
+.icons{
+    font-size: 50px;
+    display: inline-flex;
+    padding-top: 120px;
+    padding-left: 50px;
+    text-align: right;
+    border-radius: 50%;
+    word-spacing: 30px;
+
+}
+
+.foot{
+    display: grid;
+    grid-template-rows: 150px ;
+    grid-template-columns: 1fr 1fr  ;
+    grid-column-gap: 25px;
+    
+}
+   .icons li  {
+    list-style: none;
+    letter-spacing: 30px;
+}
+
+
+
+
